@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b,sub;    //variable declaration 
+cout<<"enter two numbers = ";
+cin>>a>>b;
+sub=a-b;
+cout<<"SUBTRACTION of two numbers is "<< sub;
+   return 0;
+}
