@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class Test
+{
+  private:
+        int num;
+  public:
+        Test()
+        {
+            num=20;
+        }
+ void operator --();
+     void Print()
+   {
+        cout <<"The count is: "<<num;
+   }     
+};
+   void Test :: operator--()
+   {
+       num = num-6;
+   }
+int main()
+{
+    Test tt;
+    --tt; //calling of a function "void operator --()"
+     tt.Print();
+     return 0;
+}
