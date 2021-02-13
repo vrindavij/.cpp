@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class encapsulation
+{
+private:
+   int y;
+public:
+void set (int a)
+{
+ y=a;
+}
+int get()
+{
+    return y;
+}
+};
+int main()
+{
+    encapsulation obj;
+    obj.set(6);
+    cout<<obj.get();
+}
